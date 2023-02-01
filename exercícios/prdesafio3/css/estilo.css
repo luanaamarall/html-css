@@ -1,0 +1,17 @@
+body{
+    background: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+h1{
+    color: white;
+}
+p{
+    color: white;
+}
+img{
+    width: 450px;
+}
+a{
+    text-decoration: none;
+}

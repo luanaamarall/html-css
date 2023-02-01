@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            color: darkblue;
+        }
+
+        h1{
+            background-color: aqua;
+            padding: 20px;
+            margin: 10px auto 10px auto;
+            text-align: center;
+        }
+        
+        h2{
+            padding: 10px;
+        }
+
+        header{
+            text-align: center;
+        }
+
+        nav{
+            background-color: darkblue;
+            padding: 10px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.384);
+        }
+
+        main{
+            background-color: aqua;
+            margin: 10px auto 10px auto;
+            text-align: center;
+            border-radius: 20px 20px 20px 0px;
+            box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.384);
+        }
+
+        a{
+            text-decoration: none;
+            color: aqua;
+        }
+
+        footer{
+            text-align: center;
+            background-color: darkblue;
+            color: aqua;
+            margin: auto;
+            padding: 10px;
+        }
+
+        article > aside{
+            background-color: darkblue;
+            color: aqua;
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+
+        aside{
+            border-radius: 20px 20px 20px 0px;
+        }
+
+        div#bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: darkblue;
+            border-radius: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>    
+            <section id="noticias">
+                <article>
+                    <h2>Copa do Mundo</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod dignissimos quidem autem ut libero, voluptate non molestiae sed recusandae et quos ullam sapiente consequuntur, impedit ipsam, labore commodi deleniti quas.</p>
+                    <aside>
+                        <p>Artigo por Luana.</p>
+                    </aside>
+                </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Luana Amaral</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
