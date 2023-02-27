@@ -13,6 +13,7 @@
         table{
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         td, th{
@@ -32,8 +33,18 @@
             color: white;
         }
 
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: #383838;
+        }
+
         td.num{
             text-align: right;
+        }
+
+        tbody > tr:nth-child(even){
+            background-color: lightgray;
         }
 
         
@@ -50,6 +61,8 @@
                 tr, td, th
             TFoot
                 tr, td, th
+        (odd - ímpar)
+        (even - par)
     -->
     <table>
         <caption>População das unidades federativas</caption>
